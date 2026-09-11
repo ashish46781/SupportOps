@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "payment_failed.png",
+    "category": "PAYMENT",
+    "service": "PaymentService"
+  },
+  {
+    "filename": "refund_pending.png",
+    "category": "REFUND",
+    "service": "RefundService"
+  },
+  {
+    "filename": "otp_error.png",
+    "category": "LOGIN",
+    "service": "AuthenticationService"
+  },
+  {
+    "filename": "image_upload_error.png",
+    "category": "IMAGE_UPLOAD",
+    "service": "UploadService"
+  }
+]

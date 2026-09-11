@@ -1,0 +1,758 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST-001",
+      "name": "Ananya Sharma",
+      "email": "ananya.sharma@example.test",
+      "plan": "PLUS",
+      "created_at": "2025-03-19T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-002",
+      "name": "Rahul Verma",
+      "email": "rahul.verma@example.test",
+      "plan": "STANDARD",
+      "created_at": "2025-03-20T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-003",
+      "name": "Sara Khan",
+      "email": "sara.khan@example.test",
+      "plan": "STANDARD",
+      "created_at": "2025-03-21T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-004",
+      "name": "Vikram Patel",
+      "email": "vikram.patel@example.test",
+      "plan": "PLUS",
+      "created_at": "2025-03-22T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-005",
+      "name": "Neha Singh",
+      "email": "neha.singh@example.test",
+      "plan": "STANDARD",
+      "created_at": "2025-03-23T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-006",
+      "name": "Arjun Mehta",
+      "email": "arjun.mehta@example.test",
+      "plan": "STANDARD",
+      "created_at": "2025-03-24T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-007",
+      "name": "Mira Iyer",
+      "email": "mira.iyer@example.test",
+      "plan": "PLUS",
+      "created_at": "2025-03-25T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-008",
+      "name": "Kabir Das",
+      "email": "kabir.das@example.test",
+      "plan": "STANDARD",
+      "created_at": "2025-03-26T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-009",
+      "name": "Tara Bose",
+      "email": "tara.bose@example.test",
+      "plan": "STANDARD",
+      "created_at": "2025-03-27T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-010",
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@example.test",
+      "plan": "PLUS",
+      "created_at": "2025-03-28T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-011",
+      "name": "Ishita Rao",
+      "email": "ishita.rao@example.test",
+      "plan": "STANDARD",
+      "created_at": "2025-03-29T10:00:00+00:00"
+    },
+    {
+      "customer_id": "CUST-012",
+      "name": "Dev Nair",
+      "email": "dev.nair@example.test",
+      "plan": "STANDARD",
+      "created_at": "2025-03-30T10:00:00+00:00"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD-1001",
+      "customer_id": "CUST-001",
+      "amount": 2499,
+      "status": "FAILED",
+      "created_at": "2026-07-13T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1002",
+      "customer_id": "CUST-002",
+      "amount": 1299,
+      "status": "REFUNDED",
+      "created_at": "2026-07-14T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1003",
+      "customer_id": "CUST-003",
+      "amount": 799,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-15T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1004",
+      "customer_id": "CUST-004",
+      "amount": 3499,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-16T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1005",
+      "customer_id": "CUST-005",
+      "amount": 1899,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-17T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1006",
+      "customer_id": "CUST-006",
+      "amount": 599,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-18T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1007",
+      "customer_id": "CUST-007",
+      "amount": 1599,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-19T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1008",
+      "customer_id": "CUST-008",
+      "amount": 2799,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-20T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1009",
+      "customer_id": "CUST-009",
+      "amount": 999,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-21T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1010",
+      "customer_id": "CUST-010",
+      "amount": 4499,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-22T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1011",
+      "customer_id": "CUST-011",
+      "amount": 699,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-23T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1012",
+      "customer_id": "CUST-012",
+      "amount": 2199,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-24T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1013",
+      "customer_id": "CUST-001",
+      "amount": 899,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-25T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1014",
+      "customer_id": "CUST-002",
+      "amount": 1399,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-26T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1015",
+      "customer_id": "CUST-003",
+      "amount": 3199,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-27T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1016",
+      "customer_id": "CUST-004",
+      "amount": 1099,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-28T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1017",
+      "customer_id": "CUST-005",
+      "amount": 2599,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-29T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1018",
+      "customer_id": "CUST-006",
+      "amount": 749,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-30T10:00:00+00:00"
+    },
+    {
+      "order_id": "ORD-1019",
+      "customer_id": "CUST-007",
+      "amount": 1799,
+      "status": "CONFIRMED",
+      "created_at": "2026-07-31T10:00:00+00:00"
+    }
+  ],
+  "payments": [
+    {
+      "payment_id": "PAY-1001",
+      "order_id": "ORD-1001",
+      "customer_id": "CUST-001",
+      "amount": 2499,
+      "status": "CAPTURED",
+      "provider_reference": "DEMO-PROVIDER-1001",
+      "created_at": "2026-07-13T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1002",
+      "order_id": "ORD-1002",
+      "customer_id": "CUST-002",
+      "amount": 1299,
+      "status": "REFUND_PENDING",
+      "provider_reference": "DEMO-PROVIDER-1002",
+      "created_at": "2026-07-14T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1003",
+      "order_id": "ORD-1003",
+      "customer_id": "CUST-003",
+      "amount": 799,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1003",
+      "created_at": "2026-07-15T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1004",
+      "order_id": "ORD-1004",
+      "customer_id": "CUST-004",
+      "amount": 3499,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1004",
+      "created_at": "2026-07-16T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1005",
+      "order_id": "ORD-1005",
+      "customer_id": "CUST-005",
+      "amount": 1899,
+      "status": "CAPTURED",
+      "provider_reference": "DEMO-PROVIDER-1005",
+      "created_at": "2026-07-17T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1006",
+      "order_id": "ORD-1006",
+      "customer_id": "CUST-006",
+      "amount": 599,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1006",
+      "created_at": "2026-07-18T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1007",
+      "order_id": "ORD-1007",
+      "customer_id": "CUST-007",
+      "amount": 1599,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1007",
+      "created_at": "2026-07-19T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1008",
+      "order_id": "ORD-1008",
+      "customer_id": "CUST-008",
+      "amount": 2799,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1008",
+      "created_at": "2026-07-20T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1009",
+      "order_id": "ORD-1009",
+      "customer_id": "CUST-009",
+      "amount": 999,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1009",
+      "created_at": "2026-07-21T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1010",
+      "order_id": "ORD-1010",
+      "customer_id": "CUST-010",
+      "amount": 4499,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1010",
+      "created_at": "2026-07-22T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1011",
+      "order_id": "ORD-1011",
+      "customer_id": "CUST-011",
+      "amount": 699,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1011",
+      "created_at": "2026-07-23T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1012",
+      "order_id": "ORD-1012",
+      "customer_id": "CUST-012",
+      "amount": 2199,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1012",
+      "created_at": "2026-07-24T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1013",
+      "order_id": "ORD-1013",
+      "customer_id": "CUST-001",
+      "amount": 899,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1013",
+      "created_at": "2026-07-25T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1014",
+      "order_id": "ORD-1014",
+      "customer_id": "CUST-002",
+      "amount": 1399,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1014",
+      "created_at": "2026-07-26T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1015",
+      "order_id": "ORD-1015",
+      "customer_id": "CUST-003",
+      "amount": 3199,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1015",
+      "created_at": "2026-07-27T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1016",
+      "order_id": "ORD-1016",
+      "customer_id": "CUST-004",
+      "amount": 1099,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1016",
+      "created_at": "2026-07-28T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1017",
+      "order_id": "ORD-1017",
+      "customer_id": "CUST-005",
+      "amount": 2599,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1017",
+      "created_at": "2026-07-29T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1018",
+      "order_id": "ORD-1018",
+      "customer_id": "CUST-006",
+      "amount": 749,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1018",
+      "created_at": "2026-07-30T10:00:00+00:00"
+    },
+    {
+      "payment_id": "PAY-1019",
+      "order_id": "ORD-1019",
+      "customer_id": "CUST-007",
+      "amount": 1799,
+      "status": "PAID",
+      "provider_reference": "DEMO-PROVIDER-1019",
+      "created_at": "2026-07-31T10:00:00+00:00"
+    }
+  ],
+  "tickets": [
+    {
+      "ticket_id": "TKT-1001",
+      "customer_id": "CUST-001",
+      "order_id": "ORD-1001",
+      "subject": "Payment captured but order failed",
+      "description": "My payment was captured, but the order shows failed. The checkout screen shows PAYMENT_SYNC_502.",
+      "category": "PAYMENT",
+      "priority": "HIGH",
+      "status": "NEW",
+      "screenshot_path": "demo_data/shopflow/screenshots/payment_failed.png",
+      "error_code": "PAYMENT_SYNC_502",
+      "created_at": "2026-08-01T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1002",
+      "customer_id": "CUST-002",
+      "order_id": "ORD-1002",
+      "subject": "Refund pending beyond SLA",
+      "description": "The refund has remained pending for nine business days.",
+      "category": "REFUND",
+      "priority": "HIGH",
+      "status": "IN_PROGRESS",
+      "screenshot_path": "demo_data/shopflow/screenshots/refund_pending.png",
+      "error_code": "REFUND_PENDING_09D",
+      "created_at": "2026-07-31T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1003",
+      "customer_id": "CUST-003",
+      "order_id": "ORD-1003",
+      "subject": "OTP not received after phone change",
+      "description": "I changed my phone number and the sign-in OTP has not arrived.",
+      "category": "LOGIN",
+      "priority": "MEDIUM",
+      "status": "WAITING_FOR_CUSTOMER",
+      "screenshot_path": "demo_data/shopflow/screenshots/otp_error.png",
+      "error_code": "OTP_DELIVERY_401",
+      "created_at": "2026-07-30T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1004",
+      "customer_id": "CUST-004",
+      "order_id": "ORD-1004",
+      "subject": "PNG image upload fails",
+      "description": "A product return image is rejected even though it is a PNG.",
+      "category": "IMAGE_UPLOAD",
+      "priority": "HIGH",
+      "status": "ESCALATED",
+      "screenshot_path": "demo_data/shopflow/screenshots/image_upload_error.png",
+      "error_code": "UPLOAD_SIZE_413",
+      "created_at": "2026-07-29T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1005",
+      "customer_id": "CUST-005",
+      "order_id": "ORD-1005",
+      "subject": "Unknown payment on account",
+      "description": "I do not recognize a captured payment listed on my account.",
+      "category": "SECURITY",
+      "priority": "CRITICAL",
+      "status": "NEW",
+      "screenshot_path": null,
+      "error_code": "UNKNOWN_PAYMENT",
+      "created_at": "2026-07-28T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1006",
+      "customer_id": "CUST-006",
+      "order_id": "ORD-1006",
+      "subject": "Coupon not applied",
+      "description": "SAVE20 was accepted but the total did not change.",
+      "category": "COUPON",
+      "priority": "LOW",
+      "status": "NEW",
+      "screenshot_path": null,
+      "error_code": "COUPON_RULE_MISMATCH",
+      "created_at": "2026-07-27T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1007",
+      "customer_id": "CUST-007",
+      "order_id": "ORD-1007",
+      "subject": "Payment authorization failed",
+      "description": "Checkout says payment authorization failed.",
+      "category": "PAYMENT",
+      "priority": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "screenshot_path": null,
+      "error_code": "PAYMENT_AUTH_402",
+      "created_at": "2026-07-26T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1008",
+      "customer_id": "CUST-008",
+      "order_id": "ORD-1008",
+      "subject": "Refund status unclear",
+      "description": "The app gives no expected refund date.",
+      "category": "REFUND",
+      "priority": "LOW",
+      "status": "NEW",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-07-25T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1009",
+      "customer_id": "CUST-009",
+      "order_id": "ORD-1009",
+      "subject": "Login challenge loops",
+      "description": "The verification screen keeps returning to sign in.",
+      "category": "LOGIN",
+      "priority": "MEDIUM",
+      "status": "WAITING_FOR_CUSTOMER",
+      "screenshot_path": null,
+      "error_code": "LOGIN_LOOP_409",
+      "created_at": "2026-07-24T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1010",
+      "customer_id": "CUST-010",
+      "order_id": "ORD-1010",
+      "subject": "JPG upload rejected",
+      "description": "A 3 MB JPG receipt is rejected.",
+      "category": "IMAGE_UPLOAD",
+      "priority": "MEDIUM",
+      "status": "NEW",
+      "screenshot_path": null,
+      "error_code": "UPLOAD_TYPE_415",
+      "created_at": "2026-07-23T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1011",
+      "customer_id": "CUST-011",
+      "order_id": "ORD-1011",
+      "subject": "Expired coupon displayed",
+      "description": "The app displayed a coupon that checkout says is expired.",
+      "category": "COUPON",
+      "priority": "LOW",
+      "status": "IN_PROGRESS",
+      "screenshot_path": null,
+      "error_code": "COUPON_EXPIRED",
+      "created_at": "2026-07-22T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-1012",
+      "customer_id": "CUST-012",
+      "order_id": "ORD-1012",
+      "subject": "Duplicate payment concern",
+      "description": "Two pending entries appear for one order.",
+      "category": "SECURITY",
+      "priority": "HIGH",
+      "status": "ESCALATED",
+      "screenshot_path": null,
+      "error_code": "DUPLICATE_PAYMENT",
+      "created_at": "2026-07-21T10:00:00+00:00",
+      "resolved_at": null,
+      "resolution": null
+    },
+    {
+      "ticket_id": "TKT-0901",
+      "customer_id": "CUST-001",
+      "order_id": "ORD-1013",
+      "subject": "Earlier callback sync failure",
+      "description": "Captured payment and failed order after callback error.",
+      "category": "PAYMENT",
+      "priority": "MEDIUM",
+      "status": "RESOLVED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-13T10:00:00+00:00",
+      "resolved_at": "2026-01-23T10:00:00+00:00",
+      "resolution": "Callback was replayed and reconcile_order restored the order."
+    },
+    {
+      "ticket_id": "TKT-0902",
+      "customer_id": "CUST-002",
+      "order_id": "ORD-1014",
+      "subject": "Earlier refund delay",
+      "description": "Refund waited during worker backlog.",
+      "category": "REFUND",
+      "priority": "MEDIUM",
+      "status": "CLOSED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-12T10:00:00+00:00",
+      "resolved_at": "2026-01-22T10:00:00+00:00",
+      "resolution": "Refund worker recovered and the refund completed."
+    },
+    {
+      "ticket_id": "TKT-0903",
+      "customer_id": "CUST-003",
+      "order_id": "ORD-1015",
+      "subject": "Old OTP delay",
+      "description": "OTP delayed while roaming.",
+      "category": "LOGIN",
+      "priority": "MEDIUM",
+      "status": "RESOLVED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-11T10:00:00+00:00",
+      "resolved_at": "2026-01-21T10:00:00+00:00",
+      "resolution": "Customer confirmed the registered number and delivery resumed."
+    },
+    {
+      "ticket_id": "TKT-0904",
+      "customer_id": "CUST-004",
+      "order_id": "ORD-1016",
+      "subject": "Image was too large",
+      "description": "Return PNG exceeded the accepted size.",
+      "category": "IMAGE_UPLOAD",
+      "priority": "MEDIUM",
+      "status": "CLOSED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-10T10:00:00+00:00",
+      "resolved_at": "2026-01-20T10:00:00+00:00",
+      "resolution": "Customer compressed the PNG below the enforced limit."
+    },
+    {
+      "ticket_id": "TKT-0905",
+      "customer_id": "CUST-005",
+      "order_id": "ORD-1017",
+      "subject": "Account review completed",
+      "description": "Customer requested a security review.",
+      "category": "SECURITY",
+      "priority": "MEDIUM",
+      "status": "CLOSED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-09T10:00:00+00:00",
+      "resolved_at": "2026-01-19T10:00:00+00:00",
+      "resolution": "Specialist completed identity-safe account review."
+    },
+    {
+      "ticket_id": "TKT-0906",
+      "customer_id": "CUST-006",
+      "order_id": "ORD-1018",
+      "subject": "SAVE20 eligibility issue",
+      "description": "Coupon complaint for excluded product.",
+      "category": "COUPON",
+      "priority": "MEDIUM",
+      "status": "RESOLVED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-08T10:00:00+00:00",
+      "resolved_at": "2026-01-18T10:00:00+00:00",
+      "resolution": "Explained documented product exclusion."
+    },
+    {
+      "ticket_id": "TKT-0907",
+      "customer_id": "CUST-006",
+      "order_id": "ORD-1019",
+      "subject": "WELCOME10 not applied",
+      "description": "Coupon was outside its date window.",
+      "category": "COUPON",
+      "priority": "MEDIUM",
+      "status": "CLOSED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-07T10:00:00+00:00",
+      "resolved_at": "2026-01-17T10:00:00+00:00",
+      "resolution": "Confirmed expiry date without changing the order."
+    },
+    {
+      "ticket_id": "TKT-0908",
+      "customer_id": "CUST-007",
+      "order_id": "ORD-1007",
+      "subject": "Payment retry succeeded",
+      "description": "First authorization timed out.",
+      "category": "PAYMENT",
+      "priority": "MEDIUM",
+      "status": "RESOLVED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-06T10:00:00+00:00",
+      "resolved_at": "2026-01-16T10:00:00+00:00",
+      "resolution": "Verified no capture before suggesting a retry."
+    },
+    {
+      "ticket_id": "TKT-0909",
+      "customer_id": "CUST-008",
+      "order_id": "ORD-1008",
+      "subject": "Refund requested",
+      "description": "Asked how to request a refund.",
+      "category": "REFUND",
+      "priority": "MEDIUM",
+      "status": "CLOSED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-05T10:00:00+00:00",
+      "resolved_at": "2026-01-15T10:00:00+00:00",
+      "resolution": "Provided the policy-aligned request steps."
+    },
+    {
+      "ticket_id": "TKT-0910",
+      "customer_id": "CUST-009",
+      "order_id": "ORD-1009",
+      "subject": "OTP destination check",
+      "description": "OTP was sent to an old number.",
+      "category": "LOGIN",
+      "priority": "MEDIUM",
+      "status": "RESOLVED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-04T10:00:00+00:00",
+      "resolved_at": "2026-01-14T10:00:00+00:00",
+      "resolution": "Customer verified the registered number through the safe process."
+    },
+    {
+      "ticket_id": "TKT-0911",
+      "customer_id": "CUST-010",
+      "order_id": "ORD-1010",
+      "subject": "Receipt upload fixed",
+      "description": "PDF receipt upload failed.",
+      "category": "IMAGE_UPLOAD",
+      "priority": "MEDIUM",
+      "status": "CLOSED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-03T10:00:00+00:00",
+      "resolved_at": "2026-01-13T10:00:00+00:00",
+      "resolution": "Customer uploaded a supported image format."
+    },
+    {
+      "ticket_id": "TKT-0912",
+      "customer_id": "CUST-011",
+      "order_id": "ORD-1011",
+      "subject": "Coupon minimum not met",
+      "description": "Cart was below the minimum.",
+      "category": "COUPON",
+      "priority": "MEDIUM",
+      "status": "RESOLVED",
+      "screenshot_path": null,
+      "error_code": null,
+      "created_at": "2026-01-02T10:00:00+00:00",
+      "resolved_at": "2026-01-12T10:00:00+00:00",
+      "resolution": "Explained the minimum order amount."
+    }
+  ]
+}

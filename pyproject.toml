@@ -1,0 +1,55 @@
+[project]
+name = "supportgraph"
+version = "0.1.0"
+description = "Local-first support investigation copilot for the fictional ShopFlow store"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT" }
+dependencies = [
+  "docling>=2.50,<3",
+  "fastapi>=0.116,<1",
+  "fastembed>=0.7,<1",
+  "httpx>=0.28,<1",
+  "langchain>=0.3,<2",
+  "langchain-openai>=0.3,<2",
+  "langgraph>=0.6,<2",
+  "langfuse>=4.7,<5",
+  "mem0ai>=0.1.117,<2",
+  "neo4j>=5.28,<7",
+  "pillow>=11.3,<13",
+  "pydantic-settings>=2.10,<3",
+  "pymongo>=4.13,<5",
+  "python-dotenv>=1.1,<2",
+  "pypdf>=5.9,<7",
+  "qdrant-client>=1.15,<2",
+  "reportlab>=4.4,<5",
+  "streamlit>=1.48,<2",
+  "uvicorn[standard]>=0.35,<1",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.4,<10",
+  "pytest-cov>=6.2,<8",
+  "ruff>=0.12,<1",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+addopts = "-m 'not integration'"
+pythonpath = ["."]
+markers = ["integration: requires local Docker services and, where noted, OpenAI"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["demo_data/shopflow/repository"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501", "B008"]
+
+[tool.ruff.format]
+quote-style = "double"
